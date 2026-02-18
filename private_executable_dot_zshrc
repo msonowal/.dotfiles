@@ -58,9 +58,9 @@ export FZF_ALT_C_COMMAND='fd --type d --hidden --follow --exclude .git'
 export FZF_CTRL_T_OPTS="--preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 export FZF_DEFAULT_OPTS="
   --height 40% --layout=reverse --border
-  --color=bg+:#283457,bg:#16161e,spinner:#bb9af7,hl:#7dcfff
-  --color=fg:#c0caf5,header:#7dcfff,info:#7aa2f7,pointer:#bb9af7
-  --color=marker:#9ece6a,fg+:#c0caf5,prompt:#7aa2f7,hl+:#7dcfff"
+  --color=bg+:#3a2a4d,bg:#262335,spinner:#ff7edb,hl:#36f9f6
+  --color=fg:#e0def4,header:#36f9f6,info:#ff7edb,pointer:#fe4450
+  --color=marker:#72f1b8,fg+:#f0f0f0,prompt:#ff7edb,hl+:#36f9f6"
 
 # ============================================================================
 # Bun completions
