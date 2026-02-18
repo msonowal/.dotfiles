@@ -1,0 +1,41 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	useConfigOnly = true
+	name = Manash Sonowal
+	email = manash149@gmail.com
+	signingkey = B135969966E199B5
+[pack]
+	window = 1
+[commit]
+	gpgsign = true
+
+[includeIf "gitdir:{{ .chezmoi.homeDir }}/sites/"]
+	path = ~/.gitconfig.personal
+
+[includeIf "gitdir:{{ .chezmoi.homeDir }}/projects/"]
+	path = ~/.gitconfig.personal
+
+[includeIf "gitdir:{{ .chezmoi.homeDir }}/jpt/"]
+	path = ~/.gitconfig.jpt-workspace
+
+[core]
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	side-by-side = true
+	line-numbers = true
+	syntax-theme = TwoDark
+
+[merge]
+	conflictstyle = zdiff3
+
+[diff]
+	colorMoved = default

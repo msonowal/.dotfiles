@@ -1,0 +1,40 @@
+# Font
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+font-thicken = true
+
+# Theme
+theme = tokyonight
+
+# Window
+window-padding-x = 8
+window-padding-y = 4
+window-decoration = true
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+
+# Quick Terminal (global drop-down terminal)
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-screen = main
+quick-terminal-animation-duration = 0.15
+
+# Shell integration
+shell-integration = zsh
+shell-integration-features = cursor,sudo,title
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+
+# Scrollback
+scrollback-limit = 10000
+
+# Clipboard
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = clipboard
+
+# Misc
+confirm-close-surface = false
+mouse-hide-while-typing = true
