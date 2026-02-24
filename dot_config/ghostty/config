@@ -28,7 +28,7 @@ cursor-style = block
 cursor-style-blink = false
 
 # Scrollback
-scrollback-limit = 10000
+scrollback-limit = 100000
 
 # Clipboard
 clipboard-read = allow
