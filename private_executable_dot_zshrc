@@ -78,7 +78,7 @@ eval "$(direnv hook zsh)"
 # mise (version manager)
 # ============================================================================
 
-eval "$(mise activate zsh)"
+# eval "$(mise activate zsh)"  # disabled for shell speed — re-enable when needed
 
 # ============================================================================
 # Aliases
