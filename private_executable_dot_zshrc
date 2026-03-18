@@ -92,9 +92,6 @@ alias lt='eza --icons --tree --level=2'
 alias top='htop'
 alias diff='delta'
 
-# SSH (fix terminal compatibility with Ghostty)
-# alias ssh="TERM=xterm-256color ssh"
-
 # Git
 alias lg='lazygit'
 
