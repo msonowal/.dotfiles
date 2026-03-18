@@ -92,6 +92,9 @@ alias lt='eza --icons --tree --level=2'
 alias top='htop'
 alias diff='delta'
 
+# SSH (fix terminal compatibility with Ghostty)
+# alias ssh="TERM=xterm-256color ssh"
+
 # Git
 alias lg='lazygit'
 
@@ -120,3 +123,6 @@ eval "$(starship init zsh)"
 # Java:     export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 # Node 18:  export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
 # Claude:   alias claude="/Users/msonowal/.claude/local/claude"
+
+# Go
+export PATH="$HOME/go/bin:$PATH"
